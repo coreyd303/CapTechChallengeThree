@@ -15,6 +15,7 @@
 		4CCD64F61F0FEE0300BC3368 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CCD64F41F0FEE0300BC3368 /* LaunchScreen.storyboard */; };
 		4CCD65011F0FEE0300BC3368 /* CapTechChallengeThreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCD65001F0FEE0300BC3368 /* CapTechChallengeThreeTests.swift */; };
 		4CCD650C1F0FEE0400BC3368 /* CapTechChallengeThreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCD650B1F0FEE0400BC3368 /* CapTechChallengeThreeUITests.swift */; };
+		4CCD65281F0FF40200BC3368 /* AppGlobals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCD65271F0FF40200BC3368 /* AppGlobals.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4CCD65071F0FEE0400BC3368 /* CapTechChallengeThreeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapTechChallengeThreeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CCD650B1F0FEE0400BC3368 /* CapTechChallengeThreeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapTechChallengeThreeUITests.swift; sourceTree = "<group>"; };
 		4CCD650D1F0FEE0400BC3368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CCD65271F0FF40200BC3368 /* AppGlobals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppGlobals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +101,17 @@
 		4CCD64E71F0FEE0300BC3368 /* CapTechChallengeThree */ = {
 			isa = PBXGroup;
 			children = (
-				4CCD64E81F0FEE0300BC3368 /* AppDelegate.swift */,
-				4CCD64EA1F0FEE0300BC3368 /* ViewController.swift */,
-				4CCD64EC1F0FEE0300BC3368 /* Main.storyboard */,
-				4CCD64F21F0FEE0300BC3368 /* Assets.xcassets */,
-				4CCD64F41F0FEE0300BC3368 /* LaunchScreen.storyboard */,
-				4CCD64F71F0FEE0300BC3368 /* Info.plist */,
-				4CCD64EF1F0FEE0300BC3368 /* CapTechChallengeThree.xcdatamodeld */,
+				4CCD651F1F0FF36800BC3368 /* App Delegate */,
+				4CCD651E1F0FF36600BC3368 /* App Globals */,
+				4CCD65211F0FF39400BC3368 /* Data */,
+				4CCD651B1F0FF35D00BC3368 /* Extensions */,
+				4CCD65201F0FF36A00BC3368 /* Networking */,
+				4CCD65191F0FF34B00BC3368 /* Objects */,
+				4CCD65221F0FF39500BC3368 /* Resources */,
+				4CCD65231F0FF39700BC3368 /* Supporting Files */,
+				4CCD65241F0FF39900BC3368 /* Utilities */,
+				4CCD65251F0FF3B700BC3368 /* View Controllers */,
+				4CCD65261F0FF3B900BC3368 /* Views */,
 			);
 			path = CapTechChallengeThree;
 			sourceTree = "<group>";
@@ -126,6 +132,91 @@
 				4CCD650D1F0FEE0400BC3368 /* Info.plist */,
 			);
 			path = CapTechChallengeThreeUITests;
+			sourceTree = "<group>";
+		};
+		4CCD65191F0FF34B00BC3368 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		4CCD651B1F0FF35D00BC3368 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		4CCD651E1F0FF36600BC3368 /* App Globals */ = {
+			isa = PBXGroup;
+			children = (
+				4CCD65271F0FF40200BC3368 /* AppGlobals.swift */,
+			);
+			name = "App Globals";
+			sourceTree = "<group>";
+		};
+		4CCD651F1F0FF36800BC3368 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				4CCD64E81F0FEE0300BC3368 /* AppDelegate.swift */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		4CCD65201F0FF36A00BC3368 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		4CCD65211F0FF39400BC3368 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4CCD64EF1F0FEE0300BC3368 /* CapTechChallengeThree.xcdatamodeld */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		4CCD65221F0FF39500BC3368 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4CCD64F21F0FEE0300BC3368 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4CCD65231F0FF39700BC3368 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CCD64F71F0FEE0300BC3368 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CCD65241F0FF39900BC3368 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		4CCD65251F0FF3B700BC3368 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4CCD64EA1F0FEE0300BC3368 /* ViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		4CCD65261F0FF3B900BC3368 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4CCD64F41F0FEE0300BC3368 /* LaunchScreen.storyboard */,
+				4CCD64EC1F0FEE0300BC3368 /* Main.storyboard */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +356,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CCD65281F0FF40200BC3368 /* AppGlobals.swift in Sources */,
 				4CCD64EB1F0FEE0300BC3368 /* ViewController.swift in Sources */,
 				4CCD64F11F0FEE0300BC3368 /* CapTechChallengeThree.xcdatamodeld in Sources */,
 				4CCD64E91F0FEE0300BC3368 /* AppDelegate.swift in Sources */,

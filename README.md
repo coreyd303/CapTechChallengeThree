@@ -36,15 +36,25 @@ _When completed the student should have an understanding of the following concep
 _[Local copy of data file]()
 * Suggested ERD:
 
+![suggested ERD architecture](https://github.com/coreyd303/CapTechChallengeThree/blob/readmeImages/Screen%20Shot%202017-07-07%20at%209.54.31%20AM.png width="100" height="500")
 
+* Web resources:
+  * Apple core data docs: https://goo.gl/WC8gOw
+  * [Core Data Tutorial](http://www.raywenderlich.com/934/core-data-tutorial-getting-started)
+* Required Tools: 
+  * XCode 6+
+  * Mac with OS X 10.10
+* Suggested APIs
+  * UITableView
+  * UIMapView
+  * NSFileManager
 
-4.1. iOS
-• Web resources:
-o Apple core data docs: https://goo.gl/WC8gOw
-o http://www.raywenderlich.com/934/core-data-tutorial-getting-started
-• Required Tools: o XCode 6+
-o Mac with OS X 10.10
-• Suggested APIs
-o UITableView
-o UIMapView
-o NSFileManager
+#### 3. Getting started
+
+1. Open xcode and start a new project as a single page application
+2. Initialize git from the project directory with _git init_
+3. Create a gitHub repo for this project
+  * Add your project to your new repo
+
+#### 4. Extension Challenges
+* TBD

@@ -36,7 +36,7 @@ _When completed the student should have an understanding of the following concep
 _[Local copy of data file]()
 * Suggested ERD:
 
-![suggested ERD architecture](https://github.com/coreyd303/CapTechChallengeThree/blob/readmeImages/Screen%20Shot%202017-07-07%20at%209.54.31%20AM.png width="100" height="500")
+![suggested ERD architecture](https://github.com/coreyd303/CapTechChallengeThree/blob/readmeImages/erd.png width="100" height="500")
 
 * Web resources:
   * Apple core data docs: https://goo.gl/WC8gOw
